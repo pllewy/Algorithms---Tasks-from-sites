@@ -1,5 +1,9 @@
-size = int(input)
-data = int(input()).split()
+# https://adjule.pl/groups/ale1lc2021/problems/034
+# solution by Paweł Lewicki
+
+size = int(input())
+data = input().split(" ")
+data = map(int, data)
 
 stack = [0][0][0]
 compare = ""
